@@ -45,9 +45,9 @@ public class Ch02BasicOutputMethod {
 //		System.out.printf("%d   %s   %d   %s\n", 3, "동길동", 30, "울산");
 		
 		//System.out.println() : 개행포함 print 함수
-		System.out.println("HELLO WORLD");
-		System.out.println("HELLO WORLD");
-		System.out.println("HELLO WORLD");
+//		System.out.println("HELLO WORLD");
+//		System.out.println("HELLO WORLD");
+//		System.out.println("HELLO WORLD");
 	}
 
 }
