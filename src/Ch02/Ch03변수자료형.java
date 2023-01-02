@@ -11,6 +11,7 @@ public class Ch03변수자료형 {
 		int num2 = 4;				//4값을 상수 Pool에 저장(int) 하고 새로 만들어지는 4byte 정수공간 num2에 초기화
 		int num3 = num1 + num2;		//num1의 값 + num2의 값을 4byte 정수공간 num3에 초기화
 		System.out.println(num3);	//num3안의 값을 print
+		
 
 	}
 
