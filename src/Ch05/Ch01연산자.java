@@ -22,7 +22,9 @@ public class Ch01연산자 {
 		//Scanner를 사용함
 //		Scanner sc = new Scanner(System.in);
 //		
+//		System.out.print("정수를 입력하세요 : ");
 //		int num1 = sc.nextInt();
+//		System.out.print("정수를 입력하세요 : ");
 //		int num2 = sc.nextInt();
 //		
 //		System.out.println("num1 + num2 = " + (num1 + num2));
@@ -91,6 +93,11 @@ public class Ch01연산자 {
 //		int score = 85;
 //		char grade = (score > 90) ? 'A' : 'B';
 //		System.out.println(score + "점은 " + grade + "등급입니다.");
+		
+		int kor = 85;
+		int eng = 81;
+		char grade = (kor > 88 && eng > 80) ? 'A' : 'B';
+		System.out.println(grade + "등급입니다.");
 		
 
 	}
