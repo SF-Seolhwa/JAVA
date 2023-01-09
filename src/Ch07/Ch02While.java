@@ -206,7 +206,7 @@ public class Ch02While {
 		//  ***
 		// *****
 		//*******
-//		
+
 //		int i = 0;
 //		int k = 0;		//별
 //		int j = 0;		//공백
@@ -231,12 +231,77 @@ public class Ch02While {
 		// ***
 		//*****
 		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("높이 입력 : ");
+//		int h = sc.nextInt();
+//		
+//		int i = 0;
+//		int k = 0;		//별
+//		int j = 0;		//공백
+//		
+//		while(i < h) {
+//			while (j <= (h - 2) - i) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			while (k <= 2 * i) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//			j = 0;
+//			k = 0;
+//		}
+		
 		
 		//5
 		//*******
 		// *****
 		//  ***
 		//   *
+		
+//		int i = 0;
+//		int k = 0;		//별
+//		int j = 0;		//공백
+//		
+//		while(i < 4) {
+//			while (j < i) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			while (k <= 2 * (3-i)) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//			j = 0;
+//			k = 0;
+//		}
+		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("높이 입력 : ");
+//		int h = sc.nextInt();
+//		
+//		int i = 0;
+//		int k = 0;		//별
+//		int j = 0;		//공백
+//		
+//		while(i < h) {
+//			while (j < i) {
+//				System.out.print(" ");
+//				j++;
+//			}
+//			while (k <= 2 * ((h-1)-i)) {
+//				System.out.print("*");
+//				k++;
+//			}
+//			System.out.println();
+//			i++;
+//			j = 0;
+//			k = 0;
+//		}
 	}
 
 }
