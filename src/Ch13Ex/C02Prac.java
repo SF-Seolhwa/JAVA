@@ -100,7 +100,7 @@ public class C02Prac {
 		Kim.PowerOn();
 		Kim.Move();
 		Kim.PowerOff();
-		Tablet Lee = new Tablet()
+		Tablet Lee = new Tablet();
 		Lee.setOwner("이승기");
 		System.out.println("소유자:"+Lee.getOwner()+"PN"+Lee.getProductNumber());
 		Lee.setPenNumber("1-2-3-4");
