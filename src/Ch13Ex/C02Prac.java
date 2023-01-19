@@ -1,8 +1,8 @@
 package Ch13Ex;
 
-import Ch13.Employee;
-import Ch13.Parttimer;
-import Ch13.Regular;
+//import Ch13.Employee;
+//import Ch13.Parttimer;
+//import Ch13.Regular;
 
 //-------------------------------
 //Computer.java
@@ -42,6 +42,10 @@ class Notebook extends Computer {
 	}
 	String getOwner() {
 		return this.Owner;
+	}
+	
+	int getProductNumber() {
+		return ProductNumber;
 	}
 	
 	void Move() {
