@@ -1,0 +1,30 @@
+package Ch17;
+
+public class C02Exception {
+
+	public static void main(String[] args) {
+		
+		try {
+			int arr[] = new int[3];
+			arr[5] = 10;
+			String str = null;
+			System.out.println(str.hashCode());
+			System.out.println(10/0);
+		}
+//		catch (ArithmeticException e) {		//산술오류 - ArithmeticException
+//			System.out.println("Arithmetic 예외처리");
+//		}
+//		catch (NullPointerException e) {
+//			System.out.println("Null 예외처리");
+//		}
+		catch(Exception e) {
+			System.out.println("예외처리");
+			e.printStackTrace();
+		}
+		
+		System.out.println("실행코드1");
+		System.out.println("실행코드2");
+
+	}
+
+}
