@@ -29,18 +29,44 @@ public class C04Prac {
 			{
 			case 1:
 				//이름 입력받아서 ArrayList 에  add
-				
+				sc.nextLine();
+				String addName = sc.nextLine();
+				list.add(addName);
 				break;
 			case 2:
 				//이름 입력받아서 조회(있다,없다로 조회) 이름이 있으면 "있다" 없으면 "없다"..
+				boolean check = false;
+				
+				for(String i : list) {
+					check = true;
+				}
+
+				if(check == true) {
+					System.out.println("있다.");
+				}
+				else {
+					System.out.println("없다.");
+				}
 			
 				break;
 			case 3:
 				//이름 입력받아서 삭제.. 삭제되었으면 "삭제완료" 삭제할 이름 없으면 "삭제실패" 
-			
+				sc.nextLine();
+				String removeName = sc.nextLine();
+				
+				if(list.contains(removeName)) {
+					list.remove(removeName);
+					System.out.println("삭제완료");
+				}
+				else {
+					System.out.println("삭제실패");
+				}			
 				break;
 			case 4:
 				//전체 조회
+				for(String i : list) {
+					System.out.println(i);
+				}
 				
 				break;
 			case 5:
